@@ -1,0 +1,248 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+span{
+	color: #042ED9;
+}
+header{
+	background-color: #ffffff;
+}
+ul {
+	list-style: none;
+
+}
+
+.container{
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 80px;
+}
+
+.btn-combo{
+	text-align: center;
+}
+
+.btn1{
+	display: inline-block;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0442D9;
+  border: none;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.btn2{
+	display: inline-block;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #595959;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+
+.text2 input{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #D9D9D9;
+}
+
+.logo img{
+
+	width: 300px;
+}
+
+.text{
+	text-align: center;
+}
+
+.text h1{
+		font-size: 65px;
+    font-weight: bold;
+    margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.text p{
+	font-size: 35px;
+	margin-bottom: 100px;
+}
+
+.text2{
+	text-align: center;
+}
+
+.text2 h2{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.text2 p{
+	font-size: 33px;
+	margin-bottom: 20px;
+}
+
+/*sec2*/
+
+.sec2{
+	background-color: #E6E6E6;
+}
+
+.sec2 h2{
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+
+.sec2 h3{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.sec2 p{
+    font-size: 20px;
+}
+
+.btn-single{
+	text-align: center;
+}
+
+/*sec3*/
+
+.sec3 h3{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.sec3 p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+/*sec4*/
+.sec4{
+	background-color: #E6E6E6;
+}
+.sec4 h3{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.sec4 p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+
+/*sec5*/
+
+
+.sec5 h2{
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.sec5 p{
+	font-size: 27px;
+}
+
+.image{
+	text-align: center;
+}
+
+.image img{
+	width: 850px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+/*last section*/
+/*sec7 links churaya hua mall*/
+
+.links{
+	background-color: #EFEFEF;
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 80px;
+	font-size: 12px;
+}
+
+.links-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+/* list item ko colum me dikhane ke liye uper wali 2 line*/
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    }
+
+
+.links li {
+	line-height: 2.8;
+}
+
+.links .links-inner i{
+	margin-left: 10px;
+}
+
+.links .links-inner input{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+/*footer*/
+
+.footer {
+	background:  #EFEFEF;
+	color: #000000;
+	font-size: 12px;
+	padding: 20px 0;
+	border-top: solid 0.1px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 20px;
+ }
+
+.footer{
+  width: 100%;
+  float: left;
+}
+
+.f1{
+	float: left;
+}
+
+.f2{
+	float: right;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.ft1{
+	float: left;
+	margin-top: 5px;
+}
+.ft2{
+	float: right;
+}
